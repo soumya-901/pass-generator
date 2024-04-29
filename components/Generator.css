@@ -1,0 +1,117 @@
+.generator-div{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 45em;
+    margin: 1em 0.5em 0;
+    padding: 1em 1em 0;
+    margin-top: 10em;
+}
+
+.top-div{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.collapse-div{
+    width: 100%;
+}
+
+.ip-form{
+    height: auto;
+    padding:0;
+    margin: 1em 0 0;
+    width: 40em;
+}
+.form-title{
+    margin-bottom: 0.3em;
+}
+
+.check-div{
+    width: 50%;
+    margin-bottom: 1em;
+}
+.check-2{
+    width: 50%;
+}
+.digits-first{
+    width: 100% ;
+}
+.generator-heading{
+    width: 40em;
+    font-size: 1em;
+}
+.customize-heading{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.customize-icon{
+    margin-bottom: -5px;
+}
+.img-div{
+    background-color: #ffffff;
+    width: 15em;
+    text-align: center;
+}
+.img-div img{
+    width: 75%;
+}
+.form-div{
+    margin-bottom: 1.2em;
+    font-size: 1.1em;
+}
+.form-div:last-of-type{
+    margin-bottom: 0;
+}
+
+@media(max-width: 720px){
+    .generator-div{
+        width: 90%;
+    }
+    .ip-form{
+        width: 100%;
+    }
+    .generator-heading{
+        width:100%
+    }
+    .img-div{
+        width: 100%;
+    }
+    .img-div img{
+        width: 60%;
+    }
+    .check-2{
+        width: 100%;
+    }
+    .form-div{
+        font-size: 1em;
+    }
+}
+
+
+
+.memorable{
+    margin-left: 0.1em;
+    position: relative;
+    bottom:2px;
+}
+
+.range-icons{
+    color: #B2BEC3;
+}
+.range-icons:hover{
+    color: #0385DB;
+}
+
+
+.check-div input[type=checkbox]{
+    margin-right: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    top:4px;
+    margin-left: 0.4em;
+}
